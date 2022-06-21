@@ -34,6 +34,7 @@ function nameCheck() {
 	if ($(this).data('name') === people[person].name) {
 		console.log('right person');
 		alert('Congrats you picked the right one!');
+		pickPerson();
 	} else {
 		alert('Try again pal');
 	}
